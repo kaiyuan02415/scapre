@@ -41,7 +41,7 @@ Existing multi-concept unlearning methods in t2i diffusion models face three cri
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/ScaPre.git
+git clone https://github.com/kaiyuan02415/ScaPre.git
 cd ScaPre
 
 # Create conda environment
@@ -55,21 +55,11 @@ pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorc
 pip install -r requirements.txt
 ```
 
-> **Note:** `diffusers==0.35.0.dev0` is a dev version. If installation fails, install from source:
-> ```bash
-> pip install git+https://github.com/huggingface/diffusers.git
-> ```
-> `clip==1.0` may also require source installation:
-> ```bash
-> pip install git+https://github.com/openai/CLIP.git
-> ```
-
 ### Verify
 
 ```bash
 python -c "import torch; print(f'PyTorch {torch.__version__}, CUDA: {torch.cuda.is_available()}')"
 ```
-
 ---
 
 ## Usage
