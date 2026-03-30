@@ -35,7 +35,7 @@ Existing multi-concept unlearning methods in t2i diffusion models face three cri
 ### Prerequisites
 
 - [Anaconda](https://www.anaconda.com/download) 
-- NVIDIA GPU with CUDA 12.4 support
+- NVIDIA GPU with CUDA 12.4 (or above) support
 
 ### Setup
 
